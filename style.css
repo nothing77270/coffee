@@ -52,67 +52,67 @@ nav ul li:hover {
     transform: scale(1.2);
 }
 
-header{
+header {
     height: 720px;
 }
 
-.hero{
+.hero {
     width: 372px;
 }
 
-.hero h1{
+.hero h1 {
     font-family: Roboto;
-font-weight: 700;
-font-style: Bold;
-font-size: 64px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
 
 }
 
-.hero p{
+.hero p {
     font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 24px;
-letter-spacing: 0px;
-margin-top: 75px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-top: 75px;
 }
 
-section{
+section {
     display: flex;
 }
 
-.hero_img img:last-child{
-   display: flex;
-   justify-content: end;
+.hero_img img:last-child {
+    display: flex;
+    justify-content: end;
 }
 
-.relative{
+.relative {
     position: relative;
-    
+
 }
 
-.absoulute{
+.absoulute {
     position: absolute;
-  right: 600px;
+    right: 600px;
     top: 100px;
 }
 
-.hero_img:hover .absoulute{
+.hero_img:hover .absoulute {
     transform: rotate(360deg);
     transition: 2s;
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between
 }
 
-main{
+main {
     height: 740px;
     display: flex;
     justify-content: space-between;
@@ -120,86 +120,82 @@ main{
     margin: 0 55px 0 55px;
 }
 
-.main_text{
+.main_text {
     width: 646px;
 }
 
-.main_text p{
+.main_text p {
     font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 30px;
-letter-spacing: 0px;
-margin-top: 64px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-top: 64px;
 }
 
-.main_text h1{
+.main_text h1 {
     font-family: Roboto;
-font-weight: 700;
-font-style: Bold;
-font-size: 48px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0px;
-font-variant: small-caps;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-variant: small-caps;
 
 }
 
-.main_img{
+.main_img {
     width: 375px;
 }
 
-.main_img img{
-transform: rotate(330deg);
-transition: 3s;
+.main_img img {
+    transform: rotate(330deg);
+    transition: 3s;
 }
 
-.box{
+.box {
     background: #C99B67;
     width: 100%;
     height: 510px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-     padding: 0 55px 0 55px;
-} 
+    align-items: start;
+    padding: 0 55px 0 55px;
+}
 
 .box_text {
-    width: 639px;
+    width: 639px;padding: 107px 0;
 }
 
-.box_text h1{
+.box_text h1 {
     font-family: Roboto;
-font-weight: 700;
-font-style: Bold;
-font-size: 50px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0px;
-font-variant: small-caps;
- color: white;
- margin-bottom: 30px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-variant: small-caps;
+    color: white;
+    margin-bottom: 30px;
 }
 
-.box_text p{
+.box_text p {
     font-family: Roboto;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 30px;
-letter-spacing: 0px;
-color: white;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: white;
 }
 
-.box_img img{
-    position: absolute;
-    top: 1300px;
-    left: 850px;
-    display: flex;
-    justify-content: end;
+.box_img {
+ transform: translateY(-42px);
 }
 
 footer {
@@ -236,8 +232,8 @@ footer .container div {
 }
 
 
-footer ul li:hover{
-color: #0A775F;
-border-bottom: 1px solid #0A775F;
-transform: scale(1.2);
+footer ul li:hover {
+    color: #0A775F;
+    border-bottom: 1px solid #0A775F;
+    transform: scale(1.2);
 }
