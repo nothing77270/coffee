@@ -151,7 +151,7 @@ main {
     width: 375px;
 }
 
-.main_img img {
+.main_img img:hover {
     transform: rotate(330deg);
     transition: 3s;
 }
